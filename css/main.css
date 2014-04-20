@@ -1,29 +1,45 @@
 body {
   -webkit-font-smoothing: antialiased;
   background-color: #2C3F49;
+  border-top: 5px solid;
   color: #eee;
-  max-width: 750px;
+  font-family: 'Helvetica Neue', Helvetica;
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Helvetica Neue', Helvetica;
-  border-top: 5px solid;
+  max-width: 750px;
 }
 
-a {color:#E03B24; text-decoration: none;}
+a {
+  color:#E03B24;
+  text-decoration: none;
+}
 
 hr {
-  margin: 20px 0; border-top: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+  margin: 20px 0;
 }
 
-header {text-align: center;}
+header {
+  text-align: center;
+}
 
-article {padding: 0 10px;}
-article p {line-height: 22px; font-size: 18px;}
+article {
+  font-size: 16px;
+  padding: 0 10px;
+}
 
-footer {font-size: 16px; text-align: center; text-transform: uppercase;}
+article p {
+  line-height: 22px;
+}
+
+footer {
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /* FONTS */
 
-.audiowide {font-family: 'Audiowide', cursive;}
 .megrim {font-family: 'Megrim', cursive;}
+.audiowide {font-family: 'Audiowide', cursive;}
